@@ -1,0 +1,53 @@
+    <!DOCTYPE html>
+    <html>
+    <header>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/extra.css" />
+        <link rel="shortcut icon" type="https://cdn.discordapp.com/emojis/933957021064118273.webp?size=96&quality=lossless" href="https://cdn.discordapp.com/emojis/933957021064118273.webp?size=96&quality=lossless">
+        <meta name="author" content="Codded by DevTroxep and updated by Draxx">
+        <meta name="description" content="Token Checker for Discord • Educational Content">
+        <meta name="keywords" content="Token Checker for Discord • Educational Content • HTML, CSS, JavaScript">
+        <title>Check Discord Token</title>
+    </header>
+    <body>
+
+        <div class="general">
+            <h1>Discord Token Checker</h1>    
+            </br>
+            <label>
+                <input class="label" type="text" id="token" placeholder="< - But the token Here - >">
+            </label>
+           
+            <div class="image">
+                <img id="profile" />
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item" id="tag">tag</li>
+                <li class="list-group-item" id="id">id</li>
+                <li class="list-group-item" id="email">email</li>
+                <li class="list-group-item" id="phone">phone</li>
+                <li class="list-group-item" id="badges">badges</li>
+                <li class="list-group-item" id="nitro">nitro</li>   
+                <li class="list-group-item" id="mfa">mfa</li>
+                <li class="list-group-item" id="verified">verified</li>
+                <li class="list-group-item" id="BillingInfo">Billing Info</li>
+                <li class="list-group-item" id="locale">locale</li>
+            </ul>
+            <div class="centered-error-div">
+                <div class="alert alert-danger text-center" id="alert-doe">ERROR: TOKEN INVALID!</div>
+            </div>
+            <footer>
+                <h1></h1>
+            </footer>
+            <div class="info">
+            </div>
+            <button class="button" onclick="SubmitToken();sendMessage();">🔍 Token Infos</button>
+            <button class="button" onclick="window.open('fast.html')">🔦 Fast Checker Token List </button>
+        </div>
+    </html>
+    
+    <script src="assets/main.js"></script>
+    <script src="assets/index.js"></script>
+    <script src="assets/titleanime.js"></script>
+</html>
